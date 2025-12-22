@@ -1,2 +1,9 @@
-/* main styles */
+body {
+  background-color: #111;
+  color: white;
+  font-family: Arial, sans-serif;
+}
 
+h1 {
+  color: #7cf;
+}
