@@ -1,3 +1,17 @@
+/* ===== CUSTOM FONTS ===== */
+@font-face {
+  font-family: "PolySans Median";
+  src: url("../assets/fonts/polysanstrial-median.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PolySans Neutral";
+  src: url("../assets/fonts/polysanstrial-neutral.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
 :root{
   --bg: #070714;
   --ink: #f5f7ff;
@@ -574,12 +588,14 @@ a { color: inherit; }
 }
 /* ===== FONT OVERRIDES ONLY ===== */
 
-/* Main body text */
+/* Body text */
 body, p, span, li, a, button {
-  font-family: "PolySans Trial", "PolySans Neutral", system-ui, sans-serif !important;
+  font-family: "PolySans Neutral", system-ui, sans-serif !important;
 }
 
 /* Big titles */
 h1, h2, h3, .hero-title {
-  font-family: "Arial CE", Arial, sans-serif !important;
+  font-family: "PolySans Median", system-ui, sans-serif !important;
+}
+
 }
