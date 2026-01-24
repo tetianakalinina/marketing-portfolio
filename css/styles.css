@@ -193,8 +193,8 @@ a { color: inherit; }
 /* Nav CTA arrow rotation */
 .nav-cta .nav-cta-icon{
   display: inline-block;
-  transition: transform 400ms ease;
-  transform: rotate(0deg); /* up */
+  transition: transform 500ms ease;
+  transform: rotate(0deg); 
   transform-origin: center;
 }
 
