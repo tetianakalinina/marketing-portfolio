@@ -234,31 +234,6 @@ a { color: inherit; }
   box-shadow: 0 16px 45px rgba(122,92,255,0.25);
 }
 
-.hero-meta{
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0,1fr));
-  gap: 10px;
-  max-width: 560px;
-}
-
-.meta-card{
-  border: 1px solid rgba(255,255,255,0.10);
-  background: rgba(255,255,255,0.05);
-  border-radius: 18px;
-  padding: 12px 14px;
-}
-
-.meta-num{
-  font-weight: 900;
-  letter-spacing: -0.03em;
-}
-
-.meta-text{
-  color: var(--muted);
-  font-size: 0.9rem;
-  margin-top: 2px;
-}
-
 /* Portrait */
 
 .hero-photo-col {
