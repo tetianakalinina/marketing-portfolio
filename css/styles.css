@@ -1,25 +1,14 @@
-/* ===== RESET ===== */
+/* === FORCE FONTS ONLY === */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
+
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+  font-family: "Inter", sans-serif !important;
 }
 
-/* ===== BASE ===== */
-body {
-  font-family: "Inter", sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-/* ===== TITLES, NAV, BUTTONS ===== */
+/* HEADINGS, NAV, BUTTONS */
 h1, h2, h3, h4, h5, h6,
-.navbar a,
-button,
-.btn,
-.hero-title,
-.cta-title {
-  font-family: "Arial CE", Arial, sans-serif;
+.navbar, .navbar *,
+button, .btn, .cta, .hero-title {
+  font-family: "Arial CE", Arial, sans-serif !important;
 }
-
-/* ===== NOTHING ELSE IS TOUCHED ===== */
