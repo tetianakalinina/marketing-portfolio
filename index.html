@@ -1,56 +1,465 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Tanya | Marketing Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Tanya marketing portfolio — social media, content creation and strategy.">
+  <title>Tanya — Marketing Portfolio</title>
 
-  <!-- Google font for body text -->
+  <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
 
-  <!-- Your CSS -->
+  <!-- Bootstrap + Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
   <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
 
-  <header class="navbar">
-    <div class="logo">Tanya</div>
-    <nav>
-      <a href="#home">Home</a>
-      <a href="#work">Work</a>
-      <a href="#about">About</a>
-      <a href="#contact" class="nav-cta">Let’s work together</a>
-    </nav>
-  </header>
+<!-- NAV -->
+<nav class="nav-wrap" aria-label="Main navigation">
+  <div class="container nav-inner">
+    <a class="brand" href="#top" aria-label="Go to top">
+      <span class="brand-dot"></span>
+      Tanya
+    </a>
 
-  <section id="home" class="hero">
-    <h1 class="hero-title">Crafting brands people remember</h1>
-    <p>
-      I’m Tanya, a marketing professional with 2 years of experience in social media, 
-      content creation and strategy. Your brand deserves to be seen through creative marketing.
-    </p>
-    <a href="#contact" class="btn-cta">Let’s work together</a>
-  </section>
+    <button class="nav-toggle d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-label="Open menu">
+      <i class="bi bi-list"></i>
+    </button>
 
-  <section id="work" class="work">
-    <h2>My Work</h2>
-    <div class="work-grid">
-      <div class="work-card">Social Media Management</div>
-      <div class="work-card">Content Creation</div>
-      <div class="work-card">Strategy</div>
+    <div class="collapse d-lg-block" id="navMenu">
+      <div class="nav-pill">
+        <a class="nav-link-pill" href="#top">Home</a>
+
+        <div class="dropdown">
+          <a class="nav-link-pill dropdown-toggle" href="#work" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Expertise
+          </a>
+          <ul class="dropdown-menu dropdown-menu-dark dropdown-modern">
+            <li><a class="dropdown-item" href="#smm"><i class="bi bi-stars me-2"></i>SMM</a></li>
+            <li><a class="dropdown-item" href="#content"><i class="bi bi-images me-2"></i>Content</a></li>
+            <li><a class="dropdown-item" href="#strategy"><i class="bi bi-compass me-2"></i>Strategy</a></li>
+          </ul>
+        </div>
+
+        <a class="nav-link-pill" href="#about">About</a>
+        <a class="nav-link-pill" href="#contact">Contact</a>
+      </div>
     </div>
-  </section>
 
-  <section id="about" class="about">
-    <h2>About Me</h2>
-    <p>
-      I help brands grow through smart, creative marketing. From building social presence
-      to designing content strategies that convert, I focus on results that feel authentic.
-    </p>
-  </section>
+    <a class="btn btn-cta d-none d-lg-inline-flex" href="#contact">
+      Let’s work together <i class="bi bi-arrow-up-right"></i>
+    </a>
+  </div>
+</nav>
 
-  <section id="contact" class="contact">
-    <h2>Let’s Work Together</h2>
-    <p>Email: kalin
+<!-- HERO -->
+<header class="hero" id="top">
+  <div class="hero-bg"></div>
+
+  <div class="container hero-content">
+    <div class="row align-items-center g-4">
+      <div class="col-lg-7">
+
+        <div class="chips mb-3">
+          <span class="chip">Social Media</span>
+          <span class="chip">Content</span>
+          <span class="chip">Strategy</span>
+        </div>
+
+        <h1 class="hero-title">
+          Creative marketing that makes brands feel seen.
+        </h1>
+
+        <p class="hero-sub">
+          I’m Tanya, a marketing professional with 2 years of experience across social media management,
+          content creation, and strategy. Your brand deserves to be seen — and I focus on creative marketing
+          that feels real, looks good, and has a purpose behind it.
+        </p>
+
+        <div class="hero-actions">
+          <a class="btn btn-primary btn-lg btn-glow" href="#work">
+            View my work <i class="bi bi-arrow-right"></i>
+          </a>
+          <a class="btn btn-outline-light btn-lg" href="#contact">
+            Let’s work together
+          </a>
+        </div>
+
+        <div class="hero-meta mt-4">
+          <div class="meta-card">
+            <div class="meta-num">2+</div>
+            <div class="meta-text">Years experience</div>
+          </div>
+          <div class="meta-card">
+            <div class="meta-num">SMM</div>
+            <div class="meta-text">Systems & planning</div>
+          </div>
+          <div class="meta-card">
+            <div class="meta-num">Content</div>
+            <div class="meta-text">Reels & carousels</div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="col-lg-5">
+        <div class="portrait-card">
+          <div class="portrait-glow"></div>
+          <img class="portrait"
+               src="img/profile.jpg"
+               alt="Portrait of Tanya"
+               onerror="this.src='img/placeholder.jpg'">
+          <div class="portrait-caption">
+            <div class="fw-semibold">Tanya Kalinina</div>
+            <div class="text-muted-light">Marketing • Social • Content</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- ABOUT -->
+<section class="section" id="about">
+  <div class="container">
+    <div class="section-head">
+      <h2 class="section-title">About</h2>
+      <p class="section-sub">A quick overview of what I do and how I work.</p>
+    </div>
+
+    <div class="row g-4">
+      <div class="col-lg-7">
+        <div class="glass-card h-100">
+          <h3 class="h4 mb-3">What I bring</h3>
+          <p class="text-muted-light mb-3">
+            I work across social media management, content creation, and strategy — with a focus on clarity,
+            consistency, and results that feel realistic (not “marketing for the sake of it”).
+          </p>
+          <p class="text-muted-light mb-0">
+            I’m strongest when there’s a goal to hit, a voice to protect, and a system to build so content stays consistent.
+          </p>
+
+          <div class="divider"></div>
+
+          <h4 class="h6 mb-2 text-uppercase letterspace">Skills</h4>
+          <div class="tag-row">
+            <span class="tag">Content planning</span>
+            <span class="tag">Copywriting</span>
+            <span class="tag">Reels concepts</span>
+            <span class="tag">Carousels</span>
+            <span class="tag">Campaign thinking</span>
+            <span class="tag">Reporting</span>
+            <span class="tag">Brand voice</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-5">
+        <div class="glass-card h-100">
+          <h3 class="h4 mb-3">How I work</h3>
+          <ol class="steps">
+            <li><span>Understand</span> the goal + audience</li>
+            <li><span>Define</span> the message</li>
+            <li><span>Plan</span> with realistic deliverables</li>
+            <li><span>Create</span> consistently</li>
+            <li><span>Improve</span> based on performance</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WORK -->
+<section class="section" id="work">
+  <div class="container">
+    <div class="section-head">
+      <h2 class="section-title">Work</h2>
+      <p class="section-sub">A selection of examples — click to open.</p>
+    </div>
+
+    <div class="filters">
+      <button class="filter-btn is-active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="smm">SMM</button>
+      <button class="filter-btn" data-filter="content">Content</button>
+      <button class="filter-btn" data-filter="strategy">Strategy</button>
+    </div>
+
+    <!-- SMM -->
+    <div id="smm" class="work-block">
+      <div class="work-head">
+        <h3 class="h4 m-0">SMM</h3>
+        <p class="text-muted-light m-0">Planning, posting systems, reporting.</p>
+      </div>
+
+      <div class="row g-3">
+        <div class="col-md-6 col-lg-4 work-item" data-category="smm">
+          <button class="work-card" type="button"
+                  data-title="SMM — Monthly content calendar"
+                  data-desc="Monthly plan structure with themes and post types."
+                  data-img="img/work/smm-1.jpg">
+            <div class="work-img">
+              <img src="img/work/smm-1.jpg" alt="SMM example 1" onerror="this.src='img/placeholder.jpg'">
+              <span class="work-badge">SMM</span>
+            </div>
+            <div class="work-body">
+              <div class="work-title">Monthly content calendar</div>
+              <div class="work-text">Structure • scheduling • consistency</div>
+            </div>
+          </button>
+        </div>
+
+        <div class="col-md-6 col-lg-4 work-item" data-category="smm">
+          <button class="work-card" type="button"
+                  data-title="SMM — Reporting snapshot"
+                  data-desc="Tracking results and creating next-step recommendations."
+                  data-img="img/work/smm-2.jpg">
+            <div class="work-img">
+              <img src="img/work/smm-2.jpg" alt="SMM example 2" onerror="this.src='img/placeholder.jpg'">
+              <span class="work-badge">SMM</span>
+            </div>
+            <div class="work-body">
+              <div class="work-title">Reporting snapshot</div>
+              <div class="work-text">Insights • improvements</div>
+            </div>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- CONTENT -->
+    <div id="content" class="work-block">
+      <div class="work-head">
+        <h3 class="h4 m-0">Content</h3>
+        <p class="text-muted-light m-0">Reels, carousels, creative direction.</p>
+      </div>
+
+      <div class="row g-3">
+        <div class="col-md-6 col-lg-4 work-item" data-category="content">
+          <button class="work-card" type="button"
+                  data-title="Content — Carousel example"
+                  data-desc="Carousel layout and copy structure."
+                  data-img="img/work/content-1.jpg">
+            <div class="work-img">
+              <img src="img/work/content-1.jpg" alt="Content example 1" onerror="this.src='img/placeholder.jpg'">
+              <span class="work-badge">Content</span>
+            </div>
+            <div class="work-body">
+              <div class="work-title">Carousel example</div>
+              <div class="work-text">Storytelling • value-first copy</div>
+            </div>
+          </button>
+        </div>
+
+        <div class="col-md-6 col-lg-4 work-item" data-category="content">
+          <button class="work-card" type="button"
+                  data-title="Content — Reel concept"
+                  data-desc="Reel hook and structure with clear purpose."
+                  data-img="img/work/content-2.jpg">
+            <div class="work-img">
+              <img src="img/work/content-2.jpg" alt="Content example 2" onerror="this.src='img/placeholder.jpg'">
+              <span class="work-badge">Content</span>
+            </div>
+            <div class="work-body">
+              <div class="work-title">Reel concept</div>
+              <div class="work-text">Hook • direction • message</div>
+            </div>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- STRATEGY -->
+    <div id="strategy" class="work-block">
+      <div class="work-head">
+        <h3 class="h4 m-0">Strategy</h3>
+        <p class="text-muted-light m-0">Campaign plans, positioning, voice.</p>
+      </div>
+
+      <div class="row g-3">
+        <div class="col-md-6 col-lg-4 work-item" data-category="strategy">
+          <button class="work-card" type="button"
+                  data-title="Strategy — Campaign plan"
+                  data-desc="Objective → audience → message → execution."
+                  data-img="img/work/strategy-1.jpg">
+            <div class="work-img">
+              <img src="img/work/strategy-1.jpg" alt="Strategy example 1" onerror="this.src='img/placeholder.jpg'">
+              <span class="work-badge">Strategy</span>
+            </div>
+            <div class="work-body">
+              <div class="work-title">Campaign plan</div>
+              <div class="work-text">Rollout • deliverables • goals</div>
+            </div>
+          </button>
+        </div>
+
+        <div class="col-md-6 col-lg-4 work-item" data-category="strategy">
+          <button class="work-card" type="button"
+                  data-title="Strategy — Brand voice notes"
+                  data-desc="Guidelines to keep content consistent."
+                  data-img="img/work/strategy-2.jpg">
+            <div class="work-img">
+              <img src="img/work/strategy-2.jpg" alt="Strategy example 2" onerror="this.src='img/placeholder.jpg'">
+              <span class="work-badge">Strategy</span>
+            </div>
+            <div class="work-body">
+              <div class="work-title">Brand voice notes</div>
+              <div class="work-text">Tone • messaging • consistency</div>
+            </div>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="cta-band">
+      <div class="cta-title">Let’s Work Together</div>
+      <a class="btn btn-cta" href="#contact">Let’s work together <i class="bi bi-arrow-up-right"></i></a>
+    </div>
+
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="section" id="contact">
+  <div class="container">
+    <div class="section-head">
+      <h2 class="section-title">Contact</h2>
+      <p class="section-sub">If you have a project in mind, I’m happy to chat.</p>
+    </div>
+
+    <div class="row g-4">
+      <div class="col-lg-6">
+        <div class="glass-card">
+          <h3 class="h4 mb-3">Send a message</h3>
+
+          <form id="contactForm" novalidate>
+            <div class="mb-3">
+              <label for="name" class="form-label">Name</label>
+              <input id="name" class="form-control modern-input" required minlength="2">
+              <div class="invalid-feedback">Please enter your name (min 2 characters).</div>
+            </div>
+
+            <div class="mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input id="email" class="form-control modern-input" type="email" required>
+              <div class="invalid-feedback">Please enter a valid email.</div>
+            </div>
+
+            <div class="mb-3">
+              <label for="message" class="form-label">Message</label>
+              <textarea id="message" class="form-control modern-input" rows="4" required minlength="10"></textarea>
+              <div class="invalid-feedback">Please write a message (min 10 characters).</div>
+            </div>
+
+            <button class="btn btn-primary btn-glow" type="submit">
+              Send message <i class="bi bi-send"></i>
+            </button>
+
+            <p class="small text-muted-light mt-3 mb-0" id="formStatus" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+
+      <div class="col-lg-6">
+        <div class="glass-card h-100">
+          <h3 class="h4 mb-3">Find me online</h3>
+
+          <div class="social-grid">
+            <a class="social-tile" href="https://www.instagram.com/klnntn/" target="_blank" rel="noopener">
+              <i class="bi bi-instagram"></i>
+              <div>
+                <div class="social-title">Instagram</div>
+                <div class="social-sub">@klnntn</div>
+              </div>
+              <i class="bi bi-arrow-up-right ms-auto"></i>
+            </a>
+
+            <a class="social-tile" href="https://www.linkedin.com/in/tetiana-kalinina-694459230" target="_blank" rel="noopener">
+              <i class="bi bi-linkedin"></i>
+              <div>
+                <div class="social-title">LinkedIn</div>
+                <div class="social-sub">Tetiana Kalinina</div>
+              </div>
+              <i class="bi bi-arrow-up-right ms-auto"></i>
+            </a>
+
+            <a class="social-tile" href="mailto:kalininatanya.tk@gmail.com">
+              <i class="bi bi-envelope"></i>
+              <div>
+                <div class="social-title">Email</div>
+                <div class="social-sub">kalininatanya.tk@gmail.com</div>
+              </div>
+              <i class="bi bi-arrow-up-right ms-auto"></i>
+            </a>
+          </div>
+
+          <div class="divider"></div>
+
+          <p class="small text-muted-light mb-0" id="privacy">
+            Privacy & cookies: this site uses local storage to remember cookie consent.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container footer-inner">
+    <div>
+      <div class="footer-brand">Tanya</div>
+      <div class="footer-sub">Marketing portfolio website — exam project</div>
+    </div>
+    <div class="footer-sub text-end">
+      <div>External sources: Bootstrap 5 (CDN), Google Fonts (Inter), Bootstrap Icons.</div>
+      <div>© <span id="year"></span> Tanya</div>
+    </div>
+  </div>
+</footer>
+
+<!-- COOKIE -->
+<div class="cookie-banner" id="cookieBanner" role="dialog" aria-live="polite" aria-label="Cookie consent">
+  <div class="cookie-inner">
+    <div class="cookie-left">
+      <div class="cookie-title">Cookies</div>
+      <div class="cookie-text">This site uses local storage to remember your preferences.</div>
+    </div>
+    <div class="cookie-actions">
+      <button class="btn btn-primary btn-sm btn-glow" id="cookieAccept">Accept</button>
+      <button class="btn btn-outline-light btn-sm" id="cookieDecline">Decline</button>
+      <a class="btn btn-link btn-sm link-light text-decoration-none" href="#privacy">Privacy</a>
+    </div>
+  </div>
+</div>
+
+<!-- LIGHTBOX MODAL -->
+<div class="modal fade" id="lightboxModal" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-xl modal-dialog-centered">
+    <div class="modal-content lightbox">
+      <div class="modal-header border-0">
+        <div>
+          <h5 class="modal-title mb-1" id="lightboxTitle">Work example</h5>
+          <p class="small text-muted-light mb-0" id="lightboxDesc"></p>
+        </div>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body pt-0">
+        <img id="lightboxImg" src="" alt="Work example preview" class="img-fluid rounded-4">
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
