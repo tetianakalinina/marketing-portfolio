@@ -1,4 +1,23 @@
-/* ===== CUSTOM FONTS ===== */
+.nav-inner {
+  position: relative;
+}
+
+.nav-cta {
+  position: absolute;
+  right: 24px;
+  background: #fd36ad;
+  border: none;
+  box-shadow: 0 10px 30px rgba(253,54,173,0.35);
+}
+
+.nav-cta i {
+  transition: transform 0.2s ease;
+}
+
+.nav-cta:hover i {
+  transform: translateX(6px);
+}
+
 @font-face {
   font-family: "PolySans Median";
   src: url("../assets/fonts/polysanstrial-median.otf") format("opentype");
