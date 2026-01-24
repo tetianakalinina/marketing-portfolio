@@ -626,14 +626,3 @@ h1, h2, h3, .hero-title {
   gap: 6px;
   transition: background 0.3s ease;
 }
-
-/* arrow animation */
-.nav-cta .arrow {
-  display: inline-block;
-  transition: transform 0.25s ease, opacity 0.15s ease;
-}
-
-/* on hover: rotate + slide = morph illusion */
-.nav-cta:hover .arrow {
-  transform: translateX(6px) rotate(90deg);
-}
