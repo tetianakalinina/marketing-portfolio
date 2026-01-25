@@ -643,3 +643,25 @@ h1, h2, h3, .hero-title {
 .hero-actions .btn-primary:hover i {
   transform: translateX(4px);
 }
+/* === Hover dropdown for Expertise === */
+
+/* stop Bootstrap click behaviour */
+.dropdown-toggle::after {
+  display: none;
+}
+
+/* hide menu by default */
+.dropdown .dropdown-menu {
+  display: block;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(10px);
+  transition: all 0.2s ease;
+}
+
+/* show on hover */
+.dropdown:hover .dropdown-menu {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
