@@ -807,3 +807,8 @@ h1, h2, h3, .hero-title {
 #about .col-lg-5 {
   display: block !important;
 }
+/* Nudge How I work up to visually align with About Me */
+#about .about-head {
+  position: relative;
+  top: -10px;
+}
