@@ -772,12 +772,6 @@ h1, h2, h3, .hero-title {
 .about-head {
   margin-bottom: 24px;
 }
-
-.about-head--right {
-  margin-top: 0;
-}
-.col-lg-5 .about-head {
-  margin-top: 0;
 }
 /* Remove the line under "How I work" */
 .process-row:first-child {
@@ -805,4 +799,9 @@ h1, h2, h3, .hero-title {
   border-top: none !important;
   padding-top: 0 !important;
   margin-top: 0 !important;
+}
+/* Lift "How I work" to match About Me */
+#about .about-head {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
 }
