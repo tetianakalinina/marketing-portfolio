@@ -769,3 +769,17 @@ h1, h2, h3, .hero-title {
   color: rgba(245,247,255,0.6);
   margin-bottom: 14px;
 }
+.about-head {
+  margin-bottom: 24px;
+}
+
+.about-head--right {
+  margin-top: 0;
+}
+.col-lg-5 .about-head {
+  margin-top: 0;
+}
+/* Remove the line under "How I work" */
+.process-row:first-child {
+  border-top: none !important;
+}
