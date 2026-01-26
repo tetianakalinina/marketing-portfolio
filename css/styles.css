@@ -805,3 +805,7 @@ h1, h2, h3, .hero-title {
   margin-top: 0 !important;
   padding-top: 0 !important;
 }
+/* Remove flex vertical offset on right column in About */
+#about .col-lg-5 {
+  display: block !important;
+}
