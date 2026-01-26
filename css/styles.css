@@ -777,12 +777,6 @@ h1, h2, h3, .hero-title {
 .process-row:first-child {
   border-top: none !important;
 }
-/* Align About Me & How I Work */
-.col-lg-5 {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-}
 
 .about-mini-title {
   margin-top: 0 !important;
@@ -806,6 +800,10 @@ h1, h2, h3, .hero-title {
   padding-top: 0 !important;
 }
 /* Remove flex vertical offset on right column in About */
+#about .col-lg-5 {
+  display: block !important;
+}
+/* Reset flex on About right column only */
 #about .col-lg-5 {
   display: block !important;
 }
