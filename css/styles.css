@@ -681,3 +681,43 @@ h1, h2, h3, .hero-title {
   color: #fd36ad;
   font-weight: 700;
 }
+/* HOW I WORK – line layout */
+
+.how-block {
+  margin-top: 20px;
+  border-top: 1px solid rgba(255,255,255,0.12);
+}
+
+.how-row {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 24px;
+  padding: 28px 0;
+  border-bottom: 1px solid rgba(255,255,255,0.12);
+}
+
+.how-row h3 {
+  font-size: 1.8rem;
+  font-weight: 800;
+  line-height: 1.2;
+}
+
+.how-row p {
+  margin: 0;
+  color: var(--muted);
+  max-width: 60ch;
+}
+
+.how-row span {
+  display: block;
+  margin-top: 6px;
+  font-size: 0.9rem;
+  color: rgba(255,255,255,0.6);
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .how-row {
+    grid-template-columns: 1fr;
+  }
+}
