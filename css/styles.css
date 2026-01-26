@@ -773,20 +773,12 @@ h1, h2, h3, .hero-title {
   margin-bottom: 24px;
   margin-top: 6px;
 }
-}
 /* Remove the line under "How I work" */
 .process-row:first-child {
   border-top: none !important;
 }
-
 .about-mini-title {
   margin-top: 0 !important;
-}
-/* Force How I work to align with About Me */
-.col-lg-5 {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
 }
 
 /* Remove any leftover top line under the title */
@@ -795,21 +787,7 @@ h1, h2, h3, .hero-title {
   padding-top: 0 !important;
   margin-top: 0 !important;
 }
-/* Lift "How I work" to match About Me */
-#about .about-head {
-  margin-top: 0 !important;
-  padding-top: 0 !important;
-}
-/* Remove flex vertical offset on right column in About */
-#about .col-lg-5 {
-  display: block !important;
-}
 /* Reset flex on About right column only */
 #about .col-lg-5 {
   display: block !important;
-}
-/* Nudge How I work up to visually align with About Me */
-#about .about-head {
-  position: relative;
-  top: -10px;
 }
