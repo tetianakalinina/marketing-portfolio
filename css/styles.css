@@ -771,6 +771,7 @@ h1, h2, h3, .hero-title {
 }
 .about-head {
   margin-bottom: 24px;
+  margin-top: 6px;
 }
 }
 /* Remove the line under "How I work" */
