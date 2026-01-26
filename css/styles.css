@@ -721,3 +721,43 @@ h1, h2, h3, .hero-title {
     grid-template-columns: 1fr;
   }
 }
+/* ===== ABOUT PROCESS (RIGHT SIDE) ===== */
+
+.process-card{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 18px;
+  max-width: 520px; /* keeps same visual width as left text */
+  padding: 0;
+  background: none;
+  border: none;
+  box-shadow: none;
+}
+
+/* each row */
+.process-row{
+  padding-top: 14px;
+  border-top: 1px solid rgba(255,255,255,0.14);
+}
+
+/* first row without line on top */
+.process-row:first-child{
+  border-top: none;
+  padding-top: 0;
+}
+
+/* titles */
+.process-title{
+  font-size: 1.05rem;   /* slightly bigger than body */
+  font-weight: 600;
+  margin-bottom: 4px;
+  color: #f5f7ff;
+}
+
+/* description */
+.process-desc{
+  font-size: 0.9rem;
+  line-height: 1.4;
+  color: rgba(245,247,255,0.65);
+}
