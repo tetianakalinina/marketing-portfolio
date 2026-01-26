@@ -684,8 +684,8 @@ h1, h2, h3, .hero-title {
 /* HOW I WORK – line layout */
 
 .how-block {
-  margin-top: 20px;
-  border-top: 1px solid rgba(255,255,255,0.12);
+  margin-top: 0;
+  border-top: none;
 }
 
 .how-row {
@@ -782,4 +782,14 @@ h1, h2, h3, .hero-title {
 /* Remove the line under "How I work" */
 .process-row:first-child {
   border-top: none !important;
+}
+/* Align About Me & How I Work */
+.col-lg-5 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.about-mini-title {
+  margin-top: 0 !important;
 }
