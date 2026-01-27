@@ -449,17 +449,13 @@ a { color: inherit; }
   margin-top: 4px;
 }
 
-/* === SMM GRID ALIGNMENT SYSTEM === */
-
-#smm .work-intro {
-  max-width: 860px;   /* text width */
-}
+/* === SMM FULL-WIDTH ALIGNMENT === */
 
 .smm-mockups {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 64px;
-  max-width: 860px;  /* SAME as text */
+  width: 100%;
   margin-top: 64px;
 }
 
@@ -470,7 +466,7 @@ a { color: inherit; }
 
 /* Size */
 .smm-mockups img {
-  width: 300px;   /* change this if needed */
+  width: 320px;   /* change only this to resize */
   height: auto;
   border-radius: 20px;
   box-shadow: 0 20px 50px rgba(0,0,0,0.35);
@@ -493,7 +489,6 @@ a { color: inherit; }
     width: 220px;
   }
 }
-
 /* CTA band */
 .cta-band{
   margin-top: 46px;
@@ -820,9 +815,4 @@ h1, h2, h3, .hero-title {
 
 .about-mini-title {
   margin-top: 0 !important;
-}
-#smm {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
