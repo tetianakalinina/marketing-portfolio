@@ -821,4 +821,8 @@ h1, h2, h3, .hero-title {
 .about-mini-title {
   margin-top: 0 !important;
 }
-
+#smm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
