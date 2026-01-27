@@ -449,14 +449,14 @@ a { color: inherit; }
   margin-top: 4px;
 }
 
-/* SMM mockups row */
 .smm-mockups {
   display: flex;
-  justify-content: center; 
-  align-items: flex-start;
   gap: 40px;
-  margin-top: 40px;
-}`
+  justify-content: center;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .smm-mockups img {
   width: 260px;
