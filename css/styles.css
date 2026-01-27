@@ -777,13 +777,3 @@ h1, h2, h3, .hero-title {
   margin-top: 0 !important;
 }
 
-/* Remove any leftover top line under the title */
-.how-block {
-  border-top: none !important;
-  padding-top: 0 !important;
-  margin-top: 0 !important;
-}
-/* Reset flex on About right column only */
-#about .col-lg-5 {
-  display: block !important;
-}
