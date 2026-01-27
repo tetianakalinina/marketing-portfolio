@@ -452,9 +452,9 @@ a { color: inherit; }
 /* SMM mockups row */
 .smm-mockups {
   display: flex;
-  justify-content: center;   /* THIS centers them */
+  justify-content: center; 
   align-items: flex-start;
-  gap: 80px;
+  gap: 40px;
   margin-top: 40px;
 }`
 
