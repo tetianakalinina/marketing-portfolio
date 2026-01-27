@@ -829,3 +829,19 @@ h1, h2, h3, .hero-title {
 .filters a:focus {
   text-decoration: none !important;
 }
+/* CAMPAIGNS SECTION */
+
+#campaigns img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+#campaigns .col-lg-6:first-child {
+  display: flex;
+}
+
+#campaigns .col-lg-6:first-child img {
+  flex: 1;
+}
