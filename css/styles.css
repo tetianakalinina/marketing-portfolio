@@ -896,3 +896,20 @@ h1, h2, h3, .hero-title {
   letter-spacing: -0.04em;
   max-width: 100%;
 }
+/* COOKIE – Accept button (match pink CTA style) */
+#cookieBanner .btn-primary {
+  background: #fd36ad !important;
+  border: none !important;
+  color: #fff !important;
+  border-radius: 999px !important;
+  padding: 10px 22px !important;
+  font-weight: 600;
+  box-shadow: 0 8px 24px rgba(253,54,173,0.35);
+  transition: background 0.25s ease, transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+#cookieBanner .btn-primary:hover {
+  background: #ff5fc1 !important;
+  transform: translateY(-1px);
+  box-shadow: 0 12px 30px rgba(253,54,173,0.45);
+}
