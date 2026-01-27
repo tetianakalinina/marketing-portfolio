@@ -449,6 +449,32 @@ a { color: inherit; }
   margin-top: 4px;
 }
 
+/* SMM mockups row */
+.smm-mockups {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  margin-top: 20px;
+}
+
+.smm-mockups img {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 0 20px 50px rgba(0,0,0,0.35);
+  transition: transform 0.3s ease;
+}
+
+.smm-mockups img:hover {
+  transform: translateY(-6px);
+}
+
+@media (max-width: 768px) {
+  .smm-mockups {
+    grid-template-columns: 1fr;
+  }
+}
+
 /* CTA band */
 .cta-band{
   margin-top: 46px;
