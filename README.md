@@ -4,8 +4,6 @@
 
 This project is a personal marketing portfolio website designed to showcase my work in social media marketing, content creation, and campaign planning. While it still needs a lot of work and more projects to be added, this is a good base for me to present several projects, explain my working process, and provide a contact form for enquiries.
 
-The focus of this project was to apply HTML, CSS, and JavaScript concepts learned during the course while creating a visually consistent and user-friendly website.
-
 ## Live Website
 
 https://tetianakalinina.github.io/marketing-portfolio/
