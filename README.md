@@ -12,11 +12,11 @@ https://tetianakalinina.github.io/marketing-portfolio/
 
 HTML -  structure and accessibility
 
-CSS — my custom styling, layout, and responsiveness
+CSS - my custom styling, layout, and responsiveness
 
-JavaScript — form validation and cookie consent logic
+JavaScript - form validation and cookie consent logic
 
-Bootstrap 5 — grid system, basic components and icons
+Bootstrap 5 - grid system, basic components and icons
 
 Custom fonts (PolySans) are self-hosted and applied using @font-face.
 
