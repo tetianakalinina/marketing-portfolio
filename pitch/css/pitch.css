@@ -66,3 +66,15 @@
   margin-left: auto;
   margin-right: auto;
 }
+/* Pitch hero centering */
+.pitch-hero-center {
+  text-align: center;
+}
+
+.pitch-eyebrow {
+  margin: 0 0 10px;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
