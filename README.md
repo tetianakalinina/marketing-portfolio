@@ -4,12 +4,12 @@
 
 This project is a personal marketing portfolio website designed to showcase my work in social media marketing, content creation, and campaign planning. While it still needs a lot of work and more projects to be added, this is a good base for me to present several projects, explain my working process, and provide a contact form for enquiries.
 
-## Live Website
+## Links
 
+Main Website:
 https://tetianakalinina.github.io/marketing-portfolio/
 
-### Project Presentation
-
+Project Pitch
 https://tetianakalinina.github.io/marketing-portfolio/pitch/pitch.html
 
 ## Technologies Used
