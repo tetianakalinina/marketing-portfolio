@@ -29,17 +29,6 @@
   gap: 48px;
 }
 
-.pitch-row {
-  max-width: 1100px;
-  margin-left: auto;
-  margin-right: auto;
-}
- 
-.pitch-row {
-  padding-left: 32px;
-  padding-right: 32px;
-}
-
 .pitch-media {
   flex: 0 0 48%;
 }
@@ -88,4 +77,7 @@
     width: 100%;
     max-width: 100%;
   }
+}
+.section .container {
+  max-width: 1100px;
 }
