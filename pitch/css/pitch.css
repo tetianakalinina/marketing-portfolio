@@ -61,3 +61,8 @@
     0 20px 50px rgba(0,0,0,0.6),
     inset 0 0 0 1px rgba(255,255,255,0.04);
 }
+.mobile-shot {
+  max-width: 320px;     
+  margin-left: auto;
+  margin-right: auto;
+}
