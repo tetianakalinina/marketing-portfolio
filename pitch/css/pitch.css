@@ -105,3 +105,17 @@
   line-height: 1.6;
   color: rgba(245, 247, 255, 0.75);
 }
+/* --- Pitch hero typography fixes --- */
+.pitch-hero-center h1 {
+  margin: 0;
+  line-height: 1.15;
+}
+
+.pitch-hero-center h1 + h1 {
+  margin-top: 12px;
+}
+
+.pitch-hero-text {
+  margin-top: 20px;
+  line-height: 1.6;
+}
