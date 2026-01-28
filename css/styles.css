@@ -774,3 +774,8 @@ h1, h2, h3, .hero-title {
   border-color: #ff5fc1 !important;
   box-shadow: 0 12px 30px rgba(253,54,173,0.45) !important;
 }
+@media (max-width: 991px){
+  .nav-cta {
+    display: none !important;
+  }
+}
