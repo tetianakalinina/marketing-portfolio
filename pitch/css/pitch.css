@@ -98,3 +98,10 @@
 .pitch-hero-center h1 + h1 {
   margin-top: 12px;
 }
+.pitch-hero-text {
+  margin-top: 16px;
+  max-width: 720px;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: rgba(245, 247, 255, 0.75);
+}
