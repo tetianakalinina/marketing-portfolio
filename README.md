@@ -1,16 +1,16 @@
 # Marketing Portfolio
 
-Project Overview
+## Project Overview
 
 This project is a personal marketing portfolio website designed to showcase my work in social media marketing, content creation, and campaign planning. While it still needs a lot of work and more projects to be added, this is a good base for me to present several projects, explain my working process, and provide a contact form for enquiries.
 
 The focus of this project was to apply HTML, CSS, and JavaScript concepts learned during the course while creating a visually consistent and user-friendly website.
 
-Live Website
+## Live Website
 
 https://tetianakalinina.github.io/marketing-portfolio/
 
-Technologies Used
+## Technologies Used
 
 HTML -  structure and accessibility
 
@@ -22,9 +22,9 @@ Bootstrap 5 — grid system, basic components and icons
 
 Custom fonts (PolySans) are self-hosted and applied using @font-face.
 
-Features
+## Features
 
-Responsive navigation with dropdown menu
+Responsive navigation with a dropdown menu
 
 Hero section introducing the portfolio
 
@@ -48,10 +48,11 @@ Displaying user feedback messages after form submission
 
 All JavaScript functionality directly corresponds to elements present in the HTML.
 
-Design Approach
+## Design Approach
 
 The website uses a dark theme with custom colour variables and typography. Bootstrap was used mainly for layout and structure, while most visual styles were implemented using custom CSS to allow greater design flexibility.
 
-Notes
-
-This project was developed as part of a coursework assignment and focuses on demonstrating understanding of front-end fundamentals rather than backend functionality. The contact form does not submit data to a server.
+## My Unimi Credentials
+Name: Tetiana Kalinina
+Matricola: 69089A
+Email: tetiana.kalinina@studenti.unimi.it
