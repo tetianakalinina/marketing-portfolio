@@ -119,3 +119,8 @@
   margin-top: 20px;
   line-height: 1.6;
 }
+.pitch-hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
