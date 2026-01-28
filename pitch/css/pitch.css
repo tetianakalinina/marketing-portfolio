@@ -23,22 +23,30 @@
   margin-top: 18px;
 }
 
-.pitch-row{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 28px;
+.pitch-row {
+  display: flex;
   align-items: center;
+  gap: 48px;
 }
 
-.pitch-media{
-  padding: 0;
-  overflow: hidden;
+.pitch-media {
+  flex: 0 0 48%;
 }
 
-.pitch-media img{
-  display: block;
+.pitch-copy {
+  flex: 1;
+}
+
+.pitch-media {
+  padding: 24px;
+}
+
+.pitch-media img {
   width: 100%;
+  max-width: 100%;
   height: auto;
+  display: block;
+  border-radius: 16px;
 }
 
 .pitch-title{
