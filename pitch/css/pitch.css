@@ -29,6 +29,11 @@
   gap: 48px;
 }
 
+.pitch-row {
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
 .pitch-media {
   flex: 0 0 48%;
 }
