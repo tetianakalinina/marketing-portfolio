@@ -78,12 +78,10 @@
   letter-spacing: 0.12em;
   text-transform: uppercase;
 }
-/* Pink title for pitch hero */
 .pitch-title-pink {
-  color: #fd36ad; /* your brand pink */
+  color: #fd36ad; 
 }
 
-/* Center hero titles */
 .pitch-hero-center {
   display: flex;
   flex-direction: column;
@@ -105,7 +103,7 @@
   line-height: 1.6;
   color: rgba(245, 247, 255, 0.75);
 }
-/* --- Pitch hero typography fixes --- */
+
 .pitch-hero-center h1 {
   margin: 0;
   line-height: 1.15;
@@ -123,4 +121,15 @@
   min-height: 100vh;
   display: flex;
   align-items: center;
+}
+
+.pitch-slide {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+.pitch-slide .pitch-media img {
+  max-height: 70vh;
+  object-fit: contain;
 }
