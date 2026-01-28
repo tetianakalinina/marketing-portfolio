@@ -8,6 +8,10 @@ This project is a personal marketing portfolio website designed to showcase my w
 
 https://tetianakalinina.github.io/marketing-portfolio/
 
+### Project Presentation
+
+https://tetianakalinina.github.io/marketing-portfolio/pitch/pitch.html
+
 ## Technologies Used
 
 HTML -  structure and accessibility
