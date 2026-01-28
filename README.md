@@ -42,5 +42,7 @@ I mainly got inspiration for my website design from the marketing agency I work 
 
 ## My Unimi Credentials
 Name: Tetiana Kalinina
+
 Matricola: 69089A
+
 Email: tetiana.kalinina@studenti.unimi.it
