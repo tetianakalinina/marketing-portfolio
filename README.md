@@ -22,33 +22,23 @@ Custom fonts (PolySans) are self-hosted and applied using @font-face.
 
 ## Features
 
-Responsive navigation with a dropdown menu
+- Responsive navigation with a dropdown menu
 
-Hero section introducing the portfolio
+- Hero section with my introduction
 
-Work section showcasing SMM, content, and campaign projects
+- Work section showcasing SMM, content, and campaign projects
 
-Contact form with client-side validation
+- Contact form
 
-Cookie consent banner using localStorage
+- Cookie consent banner
 
-Custom visual styling with CSS variables and reusable components
+- Custom CSS variables
 
-JavaScript Functionality
-
-JavaScript is used for:
-
-Handling cookie consent (Accept / Decline) and storing the choice in localStorage
-
-Validating the contact form using built-in HTML validation
-
-Displaying user feedback messages after form submission
-
-All JavaScript functionality directly corresponds to elements present in the HTML.
+- JavaScript used for handling cookies consent, validating the contact form, and displaying user feedback message after contact form submission.
 
 ## Design Approach
 
-The website uses a dark theme with custom colour variables and typography. Bootstrap was used mainly for layout and structure, while most visual styles were implemented using custom CSS to allow greater design flexibility.
+I mainly got inspiration for my website design from the marketing agency I work at. The website uses a dark theme with custom colours and typography. Bootstrap was used mainly for layout and structure.
 
 ## My Unimi Credentials
 Name: Tetiana Kalinina
