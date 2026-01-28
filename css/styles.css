@@ -556,7 +556,7 @@ h1, h2, h3, .hero-title {
   background: #fd36ad !important;
   border: none !important;
   color: #fff !important;
-  border-radius: 999px !important; /* same pill shape */
+  border-radius: 999px !important;
   padding: 14px 26px !important;
   font-weight: 600;
   box-shadow: 0 10px 30px rgba(253,54,173,0.35);
@@ -724,12 +724,6 @@ h1, h2, h3, .hero-title {
 
 .campaign-text {
   max-width: 520px;
-}
-
-.campaign-lead {
-  font-size: 1.6rem;
-  line-height: 1.4;
-  margin-bottom: 24px;
 }
 
 @media (max-width: 768px) {
