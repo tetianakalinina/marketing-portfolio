@@ -5,21 +5,136 @@
   <title>Project Pitch — Marketing Portfolio</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link rel="stylesheet" href="../css/styles.css">
+  <!-- Use same CSS as main site -->
+  <link rel="stylesheet" href="../css/styles.css?v=3">
+
+  <!-- Small pitch-only overrides -->
+  <link rel="stylesheet" href="css/pitch.css">
 </head>
 
 <body>
 
-<section class="section">
-  <div class="container">
-    <h1 class="section-title">Project Pitch</h1>
+  <!-- Top header -->
+  <section class="section pitch-hero">
+    <div class="container">
+      <p class="pitch-kicker">Project Pitch</p>
+      <h1 class="section-title">Marketing Portfolio Website</h1>
 
-    <p class="hero-sub">
-      This project is a personal marketing portfolio website designed to present my
-      experience in social media management, content creation, and campaign planning.
-    </p>
-  </div>
-</section>
+      <p class="hero-sub pitch-lead">
+        A personal portfolio website created to present my work in social media management, content creation,
+        and campaign planning — and to serve as a strong base for my future clients.
+      </p>
+
+      <div class="pitch-links">
+        <a class="btn btn-primary btn-glow" href="https://tetianakalinina.github.io/marketing-portfolio/" target="_blank" rel="noopener">
+          Live Website <i class="bi bi-arrow-up-right"></i>
+        </a>
+        <a class="btn btn-outline-light btn-glow" href="https://github.com/tetianakalinina/marketing-portfolio" target="_blank" rel="noopener">
+          GitHub Repo <i class="bi bi-github"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 1: Layout -->
+  <section class="section">
+    <div class="container">
+      <div class="pitch-row">
+        <div class="pitch-media glass-card">
+          <img src="img/layout.png" alt="Layout and structure screenshot">
+        </div>
+
+        <div class="pitch-copy">
+          <h2 class="pitch-title">Layout & Structure</h2>
+          <p class="text-muted-light">
+            The website is built with a clear section-based structure to make it easy to expand over time.
+            Styling is consistent using shared components and variables.
+          </p>
+
+          <ul class="pitch-list">
+            <li>Section-based layout (About, Work, Contact)</li>
+            <li>Reusable “glass card” components</li>
+            <li>Consistent spacing + typography system</li>
+            <li>CSS variables for colours and radiuses</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 2: Interactivity -->
+  <section class="section">
+    <div class="container">
+      <div class="pitch-row">
+        <div class="pitch-media glass-card">
+          <img src="img/interactivity.png" alt="Cookie banner and contact form screenshot">
+        </div>
+
+        <div class="pitch-copy">
+          <h2 class="pitch-title">Interactivity (JavaScript)</h2>
+          <p class="text-muted-light">
+            JavaScript is used only where needed — for cookie consent logic and contact form validation feedback.
+          </p>
+
+          <ul class="pitch-list">
+            <li>Cookie consent (Accept / Decline)</li>
+            <li>Choice stored using localStorage</li>
+            <li>Client-side form validation using HTML validity checks</li>
+            <li>Clear feedback message after submission</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 3: Navigation -->
+  <section class="section">
+    <div class="container">
+      <div class="pitch-row">
+        <div class="pitch-media glass-card">
+          <img src="img/navigation.png" alt="Mobile navigation screenshot">
+        </div>
+
+        <div class="pitch-copy">
+          <h2 class="pitch-title">Navigation & Responsiveness</h2>
+          <p class="text-muted-light">
+            Navigation uses Bootstrap behaviour with custom styling, including dropdown links and a mobile menu.
+          </p>
+
+          <ul class="pitch-list">
+            <li>Sticky navigation bar</li>
+            <li>Dropdown menu for “Expertise”</li>
+            <li>Mobile hamburger menu</li>
+            <li>Responsive adjustments via media queries</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 4: Validation -->
+  <section class="section">
+    <div class="container">
+      <div class="pitch-row">
+        <div class="pitch-media glass-card">
+          <img src="img/validation.png" alt="W3C validation screenshot">
+        </div>
+
+        <div class="pitch-copy">
+          <h2 class="pitch-title">Validation & Standards</h2>
+          <p class="text-muted-light">
+            The final HTML was checked using W3C Validator and cleaned up before submission.
+          </p>
+
+          <ul class="pitch-list">
+            <li>HTML validated using W3C Validator</li>
+            <li>Accessibility-friendly structure (labels, aria where needed)</li>
+            <li>Clean, readable semantic layout</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
 
 </body>
 </html>
