@@ -1,128 +1,102 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>Project Pitch — My Marketing Portfolio</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+.pitch-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+}
 
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+.pitch-row {
+  display: flex;
+  align-items: center;
+  gap: 48px;
+}
 
-  <link rel="stylesheet" href="../css/styles.css?v=3">
-  <link rel="stylesheet" href="css/pitch.css">
-</head>
+.pitch-media {
+  flex: 0 0 45%;
+}
 
-<body>
+.pitch-media img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 16px;
+}
 
-<section class="section pitch-hero">
-  <div class="container">
-    <div class="pitch-hero-center">
-      <h1 class="section-title pitch-title-pink">My Marketing Portfolio</h1>
-      <h1 class="section-title">Project Pitch</h1>
+.pitch-copy {
+  flex: 1;
+}
 
-      <p class="pitch-hero-text">
-        This project showcases the design and development of my personal marketing portfolio website,
-        created as part of the Web Communication course to demonstrate my ability to design and develop
-        a website using HTML, CSS, and JavaScript.
-      </p>
-    </div>
-  </div>
-</section>
+.pitch-title {
+  font-size: clamp(24px, 2.4vw, 36px);
+  font-weight: 900;
+  margin-bottom: 12px;
+}
 
-<section class="section pitch-slide">
-  <div class="container">
-    <div class="pitch-inner">
-      <div class="pitch-row">
-        <div class="pitch-media">
-          <img src="img/layout-and-structure.png" alt="Layout and structure screenshot">
-        </div>
-        <div class="pitch-copy">
-          <h2 class="pitch-title">Layout & Structure</h2>
-          <p class="text-muted-light">
-            The website is built with a clear section-based structure to ensure clarity,
-            consistency, and scalability.
-          </p>
-          <ul class="pitch-list">
-            <li>Section-based layout for clear content hierarchy</li>
-            <li>Reusable components (sections, buttons, cards)</li>
-            <li>Custom CSS styling</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+.pitch-list {
+  margin-top: 14px;
+  padding-left: 18px;
+  color: rgba(245,247,255,0.7);
+}
 
-<section class="section pitch-slide">
-  <div class="container">
-    <div class="pitch-inner">
-      <div class="pitch-row">
-        <div class="pitch-media">
-          <img src="img/contact-me.png" alt="Contact form and cookie banner screenshot">
-        </div>
-        <div class="pitch-copy">
-          <h2 class="pitch-title">Interactivity & JavaScript</h2>
-          <p class="text-muted-light">
-            JavaScript is used only where needed to improve usability and user interaction.
-          </p>
-          <ul class="pitch-list">
-            <li>Client-side contact form validation</li>
-            <li>Cookie consent banner logic</li>
-            <li>User preference stored using localStorage</li>
-            <li>Feedback message shown on form submission</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+.pitch-list li {
+  margin: 8px 0;
+}
 
-<section class="section pitch-slide">
-  <div class="container">
-    <div class="pitch-inner">
-      <div class="pitch-row">
-        <div class="pitch-media">
-          <img src="img/mobile-version.jpg" alt="Mobile navigation screenshot" class="mobile-shot">
-        </div>
-        <div class="pitch-copy">
-          <h2 class="pitch-title">Navigation & Responsiveness</h2>
-          <p class="text-muted-light">
-            The website includes a mobile-first navigation system designed to keep the interface
-            clear and usable on smaller screens.
-          </p>
-          <ul class="pitch-list">
-            <li>Hamburger menu used for mobile navigation</li>
-            <li>Collapsed menu to save screen space</li>
-            <li>Touch-friendly navigation links</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+@media (max-width: 900px) {
+  .pitch-row {
+    flex-direction: column;
+    align-items: flex-start;
+  }
 
-<section class="section pitch-slide">
-  <div class="container">
-    <div class="pitch-inner">
-      <div class="pitch-row">
-        <div class="pitch-media">
-          <img src="img/w3validator.png" alt="W3C validation screenshot">
-        </div>
-        <div class="pitch-copy">
-          <h2 class="pitch-title">Validation & Standards</h2>
-          <p class="text-muted-light">
-            The final website was validated to ensure clean, standard-compliant, and accessible code.
-          </p>
-          <ul class="pitch-list">
-            <li>Website validated using W3C Validator</li>
-            <li>Semantic and readable HTML structure</li>
-            <li>Accessibility considerations applied where needed</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+  .pitch-media {
+    width: 100%;
+  }
+}
 
-</body>
-</html>
+.mobile-shot {
+  max-width: 320px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pitch-media img {
+  border: 1px solid rgba(255,255,255,0.08);
+  box-shadow:
+    0 20px 50px rgba(0,0,0,0.6),
+    inset 0 0 0 1px rgba(255,255,255,0.04);
+}
+
+.pitch-hero-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.pitch-title-pink {
+  color: #fd36ad;
+}
+
+.pitch-hero-text {
+  margin-top: 20px;
+  max-width: 720px;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: rgba(245, 247, 255, 0.75);
+}
+
+.pitch-hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.pitch-slide {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.pitch-slide .pitch-media img {
+  max-height: 70vh;
+  object-fit: contain;
+}
