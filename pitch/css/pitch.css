@@ -1,7 +1,66 @@
-body {
-  margin: 0;
-  font-family: system-ui, sans-serif;
-  background: #070714;
-  color: #f5f7ff;
+
+.pitch-hero{
+  padding-top: 64px;
+  padding-bottom: 46px;
 }
 
+.pitch-kicker{
+  margin: 0 0 10px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: rgba(245,247,255,0.6);
+  font-size: 0.85rem;
+}
+
+.pitch-lead{
+  max-width: 70ch;
+}
+
+.pitch-links{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 18px;
+}
+
+.pitch-row{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 28px;
+  align-items: center;
+}
+
+.pitch-media{
+  padding: 0;
+  overflow: hidden;
+}
+
+.pitch-media img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.pitch-title{
+  font-size: clamp(22px, 2.2vw, 34px);
+  font-weight: 900;
+  letter-spacing: -0.03em;
+  margin: 0 0 10px;
+}
+
+.pitch-list{
+  margin: 14px 0 0;
+  padding-left: 18px;
+  color: rgba(245,247,255,0.70);
+}
+
+.pitch-list li{
+  margin: 8px 0;
+}
+
+/* Mobile */
+@media (max-width: 900px){
+  .pitch-row{
+    grid-template-columns: 1fr;
+  }
+}
