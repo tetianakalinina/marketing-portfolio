@@ -1,6 +1,0 @@
-body {
-  margin: 0;
-  font-family: system-ui, sans-serif;
-  background: #070714;
-  color: #f5f7ff;
-}
