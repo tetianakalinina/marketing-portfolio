@@ -762,11 +762,6 @@ h1, h2, h3, .hero-title {
   box-shadow: 0 8px 24px rgba(253,54,173,0.35) !important;
 }
 
-.cookie-banner .btn-primary:hover {
-  background-color: #ff5fc1 !important;
-  border-color: #ff5fc1 !important;
-  box-shadow: 0 12px 30px rgba(253,54,173,0.45) !important;
-}
 @media (max-width: 991px){
   .nav-cta {
     display: none !important;
