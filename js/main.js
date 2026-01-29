@@ -2,7 +2,7 @@
 
 function $(id) { return document.getElementById(id); }
 
-const CONSENT_KEY = "cookieConsent"; // accepted | declined
+const CONSENT_KEY = "cookieConsent"; 
 
 (function cookieBanner(){
   const banner = $("cookieBanner");
