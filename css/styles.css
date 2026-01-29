@@ -685,9 +685,6 @@ h1, h2, h3, .hero-title {
   margin-top: 6px;
 }
 
-.about-mini-title {
-  margin-top: 0 !important;
-}
 .filters a {
   text-decoration: none !important;
 }
@@ -766,4 +763,3 @@ h1, h2, h3, .hero-title {
   .nav-cta {
     display: none !important;
   }
-}
