@@ -660,7 +660,6 @@ h1, h2, h3, .hero-title {
 
 .process-row{
   padding-top: 14px;
-  border-top: 1px solid rgba(255,255,255,0.14);
 }
 
 .process-row:first-child {
